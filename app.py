@@ -106,9 +106,9 @@ def main():
     # elif option == "Website URL":
     #     url = st.text_input("Enter a website URL")
     #     if url:
-            text = extract_text_from_url(url)
-            st.session_state["document_text"] = text
-            st.success("Website content loaded successfully!")
+            # text = extract_text_from_url(url)
+            # st.session_state["document_text"] = text
+            # st.success("Website content loaded successfully!")
 
     # Show QA input once we have something in session_state
     if "document_text" in st.session_state and st.session_state["document_text"]:
