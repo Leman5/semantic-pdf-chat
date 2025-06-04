@@ -6,6 +6,9 @@
 
 A  **Question‑Answering app** that lets you upload a PDF and ask natural‑language questions about its contents. The app semantically chunks the document, embeds those chunks, retrieves only the 3 most relevant ones, compresses them with an LLM, and finally feeds the concise context to GPT‑4 to craft an answer.
 
+### Preview
+![App Screenshot](./Screenshot%20from%202025-06-04%2010-18-09.png)
+
 ---
 
 ## ⚡ Quick Start
